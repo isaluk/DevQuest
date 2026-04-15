@@ -197,10 +197,10 @@ function ol(n) {
   });
   return (t.append(r, a, i, o), e.append(t), e);
 }
-const pp = "/assets/avatar1-0CgWEkOX.png",
-  mp = "/assets/avatar2-MolyIzHs.png",
-  gp = "/assets/avatar3-CovPvyRl.png",
-  Ep = "/assets/avatar4-6VM9pQ5P.png";
+const pp = "/DevQuest/assets/avatar1.png",
+  mp = "/DevQuest/assets/avatar2.png",
+  gp = "/DevQuest/assets/avatar3.png",
+  Ep = "/DevQuest/assets/avatar4.png";
 function Sp(n, e) {
   let t;
   return (...r) => {
