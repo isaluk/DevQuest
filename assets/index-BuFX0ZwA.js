@@ -197,10 +197,10 @@ function ol(n) {
   });
   return (t.append(r, a, i, o), e.append(t), e);
 }
-const pp = "/DevQuest/assets/avatar1.png",
-  mp = "/DevQuest/assets/avatar2.png",
-  gp = "/DevQuest/assets/avatar3.png",
-  Ep = "/DevQuest/assets/avatar4.png";
+const pp = "/DevQuest/assets/avatars/avatar1.png",
+  mp = "/DevQuest/assets/avatars/avatar2.png",
+  gp = "/DevQuest/assets/avatars/avatar3.png",
+  Ep = "/DevQuest/assets/avatars/avatar4.png";
 function Sp(n, e) {
   let t;
   return (...r) => {
