@@ -632,8 +632,11 @@ function Ao(n = {}) {
   const c = document.createElement("div");
   c.className = "sidebar__profile";
   const _ = document.createElement("img");
+  const base = "/DevQuest";
+  let avatarPath = e?.avatarId || "/DevQuest/assets/avatars/avatar1.png";
+  avatarPath = avatarPath.replace(/^\/src/, base);
   ((_.className = "sidebar__avatar"),
-    (_.src = e?.avatarId ? e.avatarId : "avatar1.png"),
+    (_.src = avatarPath),
     (_.alt = "User Avatar"));
   const d = document.createElement("div");
   ((d.className = "sidebar__username"),
@@ -732,7 +735,7 @@ function Ap({ currentDay: n, onSelectDay: e, onSignOut: t }) {
     r.root
   );
 }
-const co = "/assets/avatar-boss-8ibVKKl6.png",
+const co = "/DevQuest/assets/avatar-boss.png",
   ul = [
     {
       id: "bugfix",
